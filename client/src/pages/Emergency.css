@@ -1,0 +1,93 @@
+.emergency-page {
+  padding: 40px 0;
+}
+
+.emergency-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.emergency-header h1 {
+  font-size: 2.5rem;
+  color: #1a1a1a;
+  margin-bottom: 8px;
+}
+
+.emergency-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.emergency-card {
+  background: white;
+  border-radius: 12px;
+  padding: 32px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border: 2px solid #fee2e2;
+}
+
+.emergency-icon {
+  width: 80px;
+  height: 80px;
+  background: #fee2e2;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  font-size: 2rem;
+  color: #ef4444;
+}
+
+.emergency-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+  color: #1a1a1a;
+}
+
+.emergency-description {
+  color: #666;
+  margin-bottom: 16px;
+}
+
+.emergency-phone {
+  font-size: 1.5rem;
+  color: #ef4444;
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+
+.emergency-info {
+  background: #f5f7fa;
+  border-radius: 12px;
+  padding: 24px;
+  margin-top: 32px;
+}
+
+.emergency-info h2 {
+  margin-bottom: 16px;
+  color: #1a1a1a;
+}
+
+.emergency-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.emergency-info li {
+  padding: 8px 0;
+  color: #666;
+  padding-left: 24px;
+  position: relative;
+}
+
+.emergency-info li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #10b981;
+  font-weight: 600;
+}

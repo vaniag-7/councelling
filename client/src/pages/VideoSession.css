@@ -1,0 +1,111 @@
+.video-session {
+  min-height: 100vh;
+  background: #1a1a1a;
+  color: white;
+  padding: 20px;
+}
+
+.session-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.session-header h2 {
+  color: white;
+}
+
+.session-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.video-area {
+  background: #2a2a2a;
+  border-radius: 12px;
+  padding: 40px;
+  margin-bottom: 24px;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-placeholder {
+  text-align: center;
+  color: #999;
+}
+
+.video-placeholder p {
+  margin-top: 16px;
+  font-size: 1.1rem;
+}
+
+.meeting-info {
+  margin-top: 24px;
+  padding: 16px;
+  background: #333;
+  border-radius: 8px;
+  font-family: monospace;
+}
+
+.session-controls {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.control-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 16px 24px;
+  background: #333;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.control-btn.active {
+  background: #667eea;
+}
+
+.control-btn:hover {
+  background: #444;
+}
+
+.control-btn.active:hover {
+  background: #5568d3;
+}
+
+.session-info {
+  background: #2a2a2a;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  color: #999;
+}
+
+.session-info p {
+  margin-bottom: 8px;
+}
+
+.session-error {
+  text-align: center;
+  padding: 60px 20px;
+  color: white;
+}
+
+.session-error h2 {
+  margin-bottom: 16px;
+}
+
+.session-error p {
+  margin-bottom: 24px;
+  color: #999;
+}
